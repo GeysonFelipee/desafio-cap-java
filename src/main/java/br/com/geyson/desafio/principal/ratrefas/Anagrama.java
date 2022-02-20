@@ -67,7 +67,7 @@ public class Anagrama {
      * @param s entrada da string que sera analizada
      * @return int retona quantidade de pares encontras
      */
-    public int find(String s) {
+    public int busrcarAnagrama(String s) {
         if (s != null && !s.isEmpty()) {
             List<List<String>> palavras = new ArrayList<>();
             for (int i = 0; i < s.length(); i++) {

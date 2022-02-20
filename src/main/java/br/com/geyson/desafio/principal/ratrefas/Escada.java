@@ -43,7 +43,7 @@ public class Escada {
      * @param tamannho informe a quantidade de degruas que a escada possue
      * @return
      */
-    public String[] build(int tamannho) {
+    public String[] fazer(int tamannho) {
         String escada[] = new String[tamannho];
         for (int d = 1; d < (tamannho + 1); d++) {
             escada[d - 1] = criarDegarus(d, tamannho);
